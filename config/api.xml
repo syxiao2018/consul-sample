@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
     <module>test2</module>
-    <script>console.log(1)</script>
+    <script>${product.catalogId}</script>
 </root>
