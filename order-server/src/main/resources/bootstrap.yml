@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: order1
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    consul:
+      discovery:
+        service-name: ${spring.application.name}
+      host: 10.211.55.10
+      port: 8500
+      config:
+        enabled: false
+        format: yaml
+        profile-separator: ':'
+server:
+  port: 8081
+
+test:
+  val: original

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: product1
+  cloud:
+    consul:
+      discovery:
+        service-name: ${spring.application.name}
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        format: yaml
+        prefix: config
+        profile-separator: ':'
+        data-key: data
+        default-context: application
+server:
+  port: 8080
+
