@@ -22,12 +22,9 @@ spring:
           username: syxiao2018
           password: xiaosheyu741
           clone-on-start: true
-#          search-paths: product-server/src/main/resources/config
+          search-paths: /config
       name: config
       label: master
 server:
   port: 8080
 
-product:
-  catalogId: resources/application
-  inventory: resources/application

@@ -1,0 +1,10 @@
+product:
+  catalogId: resources/application
+  inventory: resources/application
+
+---
+spring:
+  profiles: dev
+product:
+  catalogId: resources/true-dev
+  inventory: resources/true-dev
