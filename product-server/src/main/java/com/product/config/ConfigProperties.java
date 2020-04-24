@@ -15,5 +15,5 @@ import org.springframework.context.annotation.Configuration;
 @RefreshScope
 public class ConfigProperties {
     private String catalogId;
-    private Integer inventory;
+    private String inventory;
 }

@@ -22,6 +22,8 @@ spring:
           username: syxiao2018
           password: xiaosheyu741
           clone-on-start: true
+          default-label: master
+      name: product1-config
 server:
   port: 8080
 
